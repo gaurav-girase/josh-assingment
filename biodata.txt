@@ -1,6 +1,6 @@
 Name : Gaurav Girase
 Age : 25
 Address : Pune
-Education : MCA1
-
+Education : MCA
+Contact No : 7745864403
 
