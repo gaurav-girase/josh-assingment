@@ -1,0 +1,19 @@
+Question 1 : What is cherry-pick?
+Ans : 
+    1.cherry-pick is a powerful command that enables arbitrary Git commits to be picked by reference and appended to the current working HEAD. 2.Cherry picking is the act of picking a commit from a branch and applying it to another. 3.git cherry-pick can be useful for undoing changes. For example, say a commit is accidently made to the wrong branch. You can switch to the correct branch and cherry-pick the commit to where it should belong. 
+    steps :
+     1.git checkout <name of branch you’d like to grab commit from>
+       Checkout to the branch you would like to pick your commit/cherry from. 
+       
+     2.git reflog
+       The git reference log, reflog, keeps track of recent actions made.
+       
+     3.git checkout <name of branch you would like to add commit to>
+       After you have made note of the hash, switch to the branch you would like to add the commit to.
+       
+     4.git cherry-pick [-x] <commit hash> 
+       Use the git cherry-pick command with the commit hash to add the commit to that branch’s working tree. 
+       Use the -x flag when you are cherry-picking from a public branch as this will append a line that 
+       remarks the original commit it was cherry-picked from.
+ 
+
