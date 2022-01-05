@@ -7,4 +7,4 @@ Ans :
     
     step 1 : git checkout master
     step 2 : git merge --squash feature_branch_name
-    step 3 : git  
+    step 3 : git commit 
